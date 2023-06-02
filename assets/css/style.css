@@ -5,8 +5,9 @@
 }
 
 body {
-    background-color: whitesmoke
+    background-color: whitesmoke;
 }
+
 .header {
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -17,14 +18,13 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: whitesmoke;
 }
 
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: Calibri, sans-serif;
     font-size: 20px;
 }
 
@@ -43,14 +43,15 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
-.picture {
+
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("#");
+    background-image: url("https://via.placeholder.com/200");
     background-size: cover;
     background-position: center;
 }
@@ -70,3 +71,27 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Calibri, sans-serif;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.img {
+    max-height: 200px; 
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
